@@ -7,8 +7,8 @@ import 'bootstrap/dist/css/bootstrap.css';
 function NavBar() {
   return (
     <div>
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-      <Container>
+    <Navbar id='navBar' collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <Container id='navContainer'>
         <Navbar.Brand href="#home">
             <img src='https://i.imgur.com/UwaLwas.jpg' width="30" height="30" alt="logo" />
         </Navbar.Brand>

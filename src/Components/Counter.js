@@ -27,9 +27,7 @@ const renderEmoticons = () =>{
 return (
     <div>
       <header className="App-header">
-        {/* <div id="countContainer"> */}
         <h1 id="countTitle">Counter</h1>
-        {/* </div> */}
         <div id="container">
           <button id="subtract" onClick={subtractHandler}>Subtract one</button>
           <span id="count">{count}</span>
@@ -38,6 +36,28 @@ return (
         <div id="emote">
           <span id="emoticon">{renderEmoticons()}</span>
         </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
       </header>
     </div>
   );
